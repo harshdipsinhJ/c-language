@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+float curventTemp(float celsius);
+
+int main(){
+   float far= curventTemp(32.0);
+    printf("value :%f",far);
+    return 0;
+}
+
+float curventTemp(float celsius){
+    float far= celsius * (9.0/5.0) +32.0;
+    return far;
+}
