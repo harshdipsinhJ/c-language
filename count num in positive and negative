@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+
+    int n,pscount=0,ngcount=0;
+    printf("enetr the positive or negative num ,enter the 0 for stop :");
+    do
+    {
+        scanf("%d",&n);
+        if (n<0)
+    {
+        ngcount++;
+        
+    }
+    else if (n>0)
+    {
+        pscount++;
+    }
+    
+    }
+    while (n !=0);
+    printf("positive nums :%d\n",pscount);
+    printf("negative nums :%d\n",ngcount);
+    return 0;
+
+}
