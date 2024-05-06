@@ -1,0 +1,25 @@
+#include<stdio.h>
+// find max number 
+int main()
+{
+    int a,b,c;
+    printf("enter the three number");
+    scanf("%d%d%d",&a,&b,&c);
+
+    if (a>b)
+    {
+       if (a>c)
+    {
+        printf("the A is max");
+    }
+    }
+    else if (b>c)
+    {
+        printf("the B is max");
+    }
+    else
+    {
+        printf("the C is max");
+    }
+    return 0;
+}
