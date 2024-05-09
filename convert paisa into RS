@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+ int rs,ps;
+ printf("Enter the amount(in paisa):");
+ scanf("%d",&ps);
+ rs=ps/100;
+ printf("Amount in rupees=%d",rs);
+ return 0;
+}
