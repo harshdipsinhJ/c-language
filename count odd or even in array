@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+
+    int num[100], n, oddcount=0,evencount=0;
+    printf("Enter number of array elements=");
+    scanf("%d", &n);
+
+    for (int i = 0; i < n; i++)
+    {
+        printf("Enter array element=");
+        scanf("%d", &num[i]);
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        if (num[i] % 2 == 0 )
+        {
+            evencount++;
+        }
+        else 
+        {
+            oddcount++;
+        }
+    }
+     printf("total odd numbers = %d \n",oddcount);
+        printf("total even numbers = %d \n",evencount);
+        return 0;
+}
