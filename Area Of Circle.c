@@ -1,3 +1,4 @@
+//pi*r*r
 #include<stdio.h>
 int main()
 {
